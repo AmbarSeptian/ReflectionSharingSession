@@ -18,7 +18,7 @@ struct ProductCard {
     let labels: [Badge]
 }
 
-enum Example {
+enum Example: Equatable {
   case foo(Int)
   case bar(String)
 }

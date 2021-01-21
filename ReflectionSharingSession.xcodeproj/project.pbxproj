@@ -13,6 +13,7 @@
 		E525EA0C25AF3CBC004E7826 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E525EA0B25AF3CBC004E7826 /* Preview Assets.xcassets */; };
 		E525EA1525AF3D09004E7826 /* ViewMirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = E525EA1425AF3D09004E7826 /* ViewMirror.swift */; };
 		E525EA1B25B010E1004E7826 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E525EA1A25B010E1004E7826 /* Model.swift */; };
+		E56F0C0125B9379F00001D30 /* Benchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56F0C0025B9379F00001D30 /* Benchmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E525EA0D25AF3CBC004E7826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E525EA1425AF3D09004E7826 /* ViewMirror.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMirror.swift; sourceTree = "<group>"; };
 		E525EA1A25B010E1004E7826 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E56F0C0025B9379F00001D30 /* Benchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benchmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				E525EA0425AF3CB9004E7826 /* ReflectionSharingSessionApp.swift */,
 				E525EA0625AF3CB9004E7826 /* ContentView.swift */,
+				E56F0C0025B9379F00001D30 /* Benchmark.swift */,
 				E525EA1A25B010E1004E7826 /* Model.swift */,
 				E525EA1425AF3D09004E7826 /* ViewMirror.swift */,
 				E525EA0825AF3CBC004E7826 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E525EA1B25B010E1004E7826 /* Model.swift in Sources */,
+				E56F0C0125B9379F00001D30 /* Benchmark.swift in Sources */,
 				E525EA0725AF3CB9004E7826 /* ContentView.swift in Sources */,
 				E525EA0525AF3CB9004E7826 /* ReflectionSharingSessionApp.swift in Sources */,
 				E525EA1525AF3D09004E7826 /* ViewMirror.swift in Sources */,

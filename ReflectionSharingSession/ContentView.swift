@@ -15,13 +15,7 @@ struct ContentView: View {
                 
                 let label = Badge(title: "sdff", image: UIImage())
                 let card = ProductCard(id: 1, name: "asdfs", labels: [label])
-                
-                let asdf = Example.foo(2)
-//                print(extract(casePath: Example.foo, root: asdf))
-//                print(extract(casePath: Example.bar, root: asdf))
-                reflect(reflecting: label)
-                reflect(reflecting: card)
-                reflect(reflecting: asdf)
+              
         }
     }
 }
@@ -44,13 +38,6 @@ func reflect(reflecting: Any) {
     }
     print("-----\n ")
 }
-//
-//func reflect(reflecting: Any) {
-//    let reflection = Mirror(reflecting: reflecting)
-//    print("\(reflection.subjectType) - \(String(describing: reflection.displayStyle))")
-//
-//    for child in reflection.children {
-//        let childMirror = Mirror(reflecting: child.value)
-//        print("\(child.label ?? "") - \(String(describing: childMirror.displayStyle))")
-//    }
-//}
+
+
+
